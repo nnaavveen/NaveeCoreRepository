@@ -12,6 +12,7 @@ namespace NaveenCore2.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Message"] = ".NET CORE OpenShift Demo";
             return View();
         }
 
